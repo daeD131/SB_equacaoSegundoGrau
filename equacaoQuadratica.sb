@@ -1,0 +1,17 @@
+TextWindow.WriteLine("Bem-vindo ao programa de resolução para equações quadráticas!")
+
+TextWindow.WriteLine("Entre com o valor de a:")
+a = TextWindow.Read()
+
+TextWindow.WriteLine("Entre com o valor de b:")
+b = TextWindow.Read()
+
+TextWindow.WriteLine("Entre com o valor de c:")
+c = TextWindow.Read()
+
+delta = ((b * b) - 4 * a * c)
+x1 = (-b + (Math.SquareRoot(delta))) / (2 * a)
+x2 = (-b - (Math.SquareRoot(delta))) / (2 * a)
+
+TextWindow.WriteLine(x1)
+TextWindow.WriteLine(x2)
